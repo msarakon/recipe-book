@@ -2,16 +2,22 @@
   <div class="content">
     <div class="heading">EVOL Recipes ❤️ cooking with LOVE</div>
     <img class="header" src="../assets/header.jpg" alt="Header" />
+    <RecipeList />
   </div>
 </template>
 
 <script>
+  import RecipeList from "./RecipeList"
+
   export default {
-    name: "Content"
+    name: "Content",
+    components: {
+      RecipeList
+    }
   };
 </script>
 
-<style>
+<style scoped>
   :root {
     --border-color: #A87A4C;
   }
@@ -20,11 +26,9 @@
     font-family: "Trebuchet MS", sans-serif;
     font-size: 1.2em;
     text-align: center;
-    margin-bottom: 1em;
   }
 
   .content {
-    box-sizing: border-box;
     background-color: #fff;
     width: 100%;
     max-width: 900px;
@@ -36,5 +40,6 @@
 
   .header {
     width: 100%;
+    margin: 1em 0;
   }
 </style>

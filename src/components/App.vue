@@ -15,8 +15,9 @@
   };
 </script>
 
-<style>
+<style scoped>
   .container {
+    display: grid;
     background-image: url("../assets/bg.jpg");
     height: 100%;
   }

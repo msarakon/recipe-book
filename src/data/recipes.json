@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Makaronilaatikko",
+    "ingredients": [
+      "5 dl makaronia",
+      "400 g jauhelihaa tai 250 g nyhtökauraa",
+      "1–2 sipulia",
+      "1 tl suolaa",
+      "1 tl currya",
+      "1/5 tl valkopippuria",
+      "1 tl paprikajauhetta",
+      "3 kananmunaa",
+      "7 dl maitoa"
+    ],
+    "guidelines": [
+      "Keitä makaronit.",
+      "Ruskista jauheliha ja sipuli. Mausta kypsä jauheliha.",
+      "Kaada kerroksittain makaroneja ja jauhelihaa voideltuun vuokaan.",
+      "Sekoita kananmunat ja maito ja kaada vuokaan.",
+      "Kypsennä 200-asteisen uunin alatasolla 1 tunti."
+    ],
+    "image": "makaroniloota"
+  },
+  {
+    "title": "Lasagne",
+    "parts": [
+      {
+        "title": "Jauhelihakastike",
+        "ingredients": [
+          "400 g jauhelihaa",
+          "500 g tomaattimurskaa",
+          "2 sipulia",
+          "2 porkkanaa",
+          "2–3 dl vettä",
+          "mausteet"
+        ],
+        "guidelines": [
+          "Ruskista jauheliha.",
+          "Lisää hienonnetut sipulit raastetut porkkanat ja ohjeen muut aineet.",
+          "Anna kastikkeen hautua."
+        ]
+      },
+      {
+        "title": "Juustokastike",
+        "ingredients": [
+          "50 g voita",
+          "1 dl erikoisvehnäjauhoja",
+          "1 l maitoa",
+          "200 g juustoraastetta"
+        ],
+        "guidelines": [
+          "Sulata voi, lisää vehnäjauhot ja vatkaa maito vähitellen kastikkeeseen.",
+          "Anna kiehua muutama minuutti. Ota kattila pois levyltä, sekoita joukkoon puolet juustoraasteesta ja mausta.",
+          "Levitä voideltuun laakeaan vuokaan kerros tekemääsi kastiketta ja sen päälle kerros juustokastiketta. Peitä vierekkäin asetetuilla lasagnelevyillä. Tee vuokaan 3-4 samanlaista kerrosta.",
+          "Kaada päällimmäiseksi kerrokseksi juustokastiketta ja ripottele pinnalle loput juustoraasteesta.",
+          "Kypsennä lasagnea 175-asteisen uunin alimmalla tasolla noin 50 minuuttia eli kunnes se on pinnaltaan kauniin ruskeaa. Anna vetäytyä noin 10 minuuttia ennen tarjoilua."
+        ]
+      }
+    ],
+    "image": "lasagne"
+  }
+]
