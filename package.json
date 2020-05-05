@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "parcel build src/index.html",
-    "serve": "parcel serve src/index.html"
+    "serve": "parcel serve src/index.html",
+    "prettier": "prettier src/ --write"
   },
   "dependencies": {
     "vue": "^2.6.11"
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.2",
     "parcel": "^1.12.4",
+    "prettier": "^2.0.5",
     "vue-hot-reload-api": "^2.3.4",
     "vue-template-compiler": "^2.6.11"
   },

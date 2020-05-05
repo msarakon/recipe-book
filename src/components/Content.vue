@@ -7,39 +7,39 @@
 </template>
 
 <script>
-  import RecipeList from "./RecipeList"
+import RecipeList from "./RecipeList";
 
-  export default {
-    name: "Content",
-    components: {
-      RecipeList
-    }
-  };
+export default {
+  name: "Content",
+  components: {
+    RecipeList,
+  },
+};
 </script>
 
 <style scoped>
-  :root {
-    --border-color: #A87A4C;
-  }
+:root {
+  --border-color: #a87a4c;
+}
 
-  .heading {
-    font-family: "Trebuchet MS", sans-serif;
-    font-size: 1.2em;
-    text-align: center;
-  }
+.heading {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
 
-  .content {
-    background-color: #fff;
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 1em;
-    height: 100%;
-    box-shadow: 0px 0px 18px 0px var(--border-color);
-  }
+.content {
+  background-color: #fff;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1em;
+  height: 100%;
+  box-shadow: 0px 0px 18px 0px var(--border-color);
+}
 
-  .header {
-    width: 100%;
-    margin: 1em 0;
-  }
+.header {
+  width: 100%;
+  margin: 1em 0;
+}
 </style>

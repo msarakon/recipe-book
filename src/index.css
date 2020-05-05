@@ -1,10 +1,11 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: Calibri, sans-serif;
   font-size: 14px;
-  color: #7A736C;
+  color: #7a736c;
   display: grid;
 }
 
