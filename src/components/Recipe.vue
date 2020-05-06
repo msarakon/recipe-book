@@ -3,31 +3,33 @@
     <div class="recipe-title" @click="open = !open">
       {{ recipe.title }}
     </div>
-    <div v-show="open" class="recipe-content">
-      <div class="recipe-text">
-        <ul v-if="!!recipe.ingredients">
-          <li v-for="(ingredient, index) in recipe.ingredients" :key="index">
-            {{ ingredient }}
-          </li>
-        </ul>
-        <ol v-if="!!recipe.guidelines">
-          <li v-for="(guideline, index) in recipe.guidelines" :key="index">
-            {{ guideline }}
-          </li>
-        </ol>
-        <RecipePart
-          v-for="(part, index) in recipe.parts"
-          :key="index"
-          :part="part"
+    <div class="recipe-togglable" :class="{ hidden: !open }">
+      <div class="recipe-content">
+        <div class="recipe-text">
+          <ul v-if="!!recipe.ingredients">
+            <li v-for="(ingredient, index) in recipe.ingredients" :key="index">
+              {{ ingredient }}
+            </li>
+          </ul>
+          <ol v-if="!!recipe.guidelines">
+            <li v-for="(guideline, index) in recipe.guidelines" :key="index">
+              {{ guideline }}
+            </li>
+          </ol>
+          <RecipePart
+            v-for="(part, index) in recipe.parts"
+            :key="index"
+            :part="part"
+          />
+        </div>
+        <img
+          v-if="!!recipe.image"
+          :src="images[recipe.image]"
+          :title="recipe.title"
+          :alt="recipe.title"
+          class="recipe-image"
         />
       </div>
-      <img
-        v-if="!!recipe.image"
-        :src="images[recipe.image]"
-        :title="recipe.title"
-        :alt="recipe.title"
-        class="recipe-image"
-      />
     </div>
   </div>
 </template>
@@ -72,6 +74,22 @@ export default {
   cursor: pointer;
   color: #d42a5a;
   background-color: rgba(0, 0, 0, 0.02);
+}
+
+.recipe-togglable {
+  height: auto;
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.3s ease-out;
+  overflow: hidden;
+}
+
+.recipe-togglable.hidden {
+  transform: scaleY(0);
+}
+
+.hidden .recipe-content {
+  display: none;
 }
 
 .recipe-content {
