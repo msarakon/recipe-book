@@ -18,10 +18,6 @@ export default {
 </script>
 
 <style scoped>
-:root {
-  --border-color: #a87a4c;
-}
-
 .heading {
   font-family: "Trebuchet MS", sans-serif;
   font-size: 1.2em;
@@ -29,6 +25,7 @@ export default {
 }
 
 .content {
+  --border-color: #a87a4c;
   background-color: #fff;
   width: 100%;
   max-width: 900px;

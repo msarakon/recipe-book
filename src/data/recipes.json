@@ -58,5 +58,103 @@
       }
     ],
     "image": "lasagne"
+  },
+  {
+    "title": "Pizzapohja",
+    "ingredients": [
+      "2,5 dl haaleaa vettä",
+      "0,5 dl ruokaöljyä",
+      "1 tl suolaa",
+      "1/2 palaa hiivaa",
+      "n. 6 dl vehnäjauhoja"
+    ],
+    "guidelines": [
+      "Sekoita suola ja hiiva haaleaan veteen.",
+      "Lisää jauhot ja alusta kimmoisa taikina. Lisää ruokaöljy.",
+      "Peitä ja kohota. Valmista sillä aikaa haluamasi täyte.",
+      "Laita pizzakivi uuniin ja kuumenna uuni 250 asteeseen. Ripottele jauhoja leivinpaperille ja kumoa taikina päälle (näistä aineksista tulee 2 pizzapohjaa). Taputtele jauhotetuin käsin tai kauli taikina pellin kokoiseksi, ohueksi pohjaksi. Levitä täyteainekset päälle.",
+      "Paista 15-20 minuuttia uunin alatasolla."
+    ],
+    "image": "pizzapohja"
+  },
+  {
+    "title": "Ruskea kastike",
+    "ingredients": [
+      "75 g voita",
+      "3 rkl vehnäjauhoja",
+      "3–4 dl vettä",
+      "1 lihaliemikuutio",
+      "ketsuppia",
+      "1 rkl soijakastiketta"
+    ],
+    "guidelines": [
+      "Sulata rasva paistinpannulla ja lisää siihen vehnäjauhot.",
+      "Ruskista vehnäjauhot ja lisää vesi siten, että laitat ensin noin puolet ja sekoita voimakkaasti, kunnes kiehahtaa.",
+      "Lisää loput vedestä ja sekoita kunnes kastike on tasaista.",
+      "Lisää lihaliemikuutio muruina, tomaattipure ja soijakastike.",
+      "Hauduta noin 5-10 minuuttia, sekoita tasaiseksi ja tarkista maku."
+    ],
+    "image": "ruskeakastike"
+  },
+  {
+    "title": "Mokkapalat",
+    "parts": [
+      {
+        "title": "Taikina",
+        "ingredients": [
+          "5 dl vehnäjauhoja",
+          "4 munaa",
+          "3 dl sokeria",
+          "2 dl maitoa",
+          "200 g voisulaa",
+          "3 rkl kaakaojauhetta",
+          "3 tl leivinjauhetta",
+          "2 tl vanilliinisokeria"
+        ]
+      },
+      {
+        "title": "Kuorrutus",
+        "ingredients": [
+          "225 g tomusokeria",
+          "50 g voisulaa",
+          "5 rkl vahvaa kahvia",
+          "1 rkl kaakaojauhetta",
+          "2 tl vanilliinisokeria"
+        ],
+        "guidelines": [
+          "Sulata rasva ja laita jäähtymään.",
+          "Vatkaa munat ja sokeri vaahdoksi.",
+          "Sekoita kuivat aineet keskenään ja lisää ne maidon kanssa vuorotellen taikinaan.",
+          "Sekoita joukkoon voisula.",
+          "Kaada taikina leivinpaperin päälle uunipellille.",
+          "Paista uunissa 200 asteessa noin 15 min.",
+          "Sulata kuorrutusta varten voi, sekoita muut aineet keskenään, sekoita seos voisulan joukkoon.",
+          "Levitä kuorrutus nopeasti jäähtyneen pohjan päälle, kuorrute jähmettyy nopeasti.",
+          "Koristele halutessasi vaikka nonparelleilla."
+        ]
+      }
+    ],
+    "image": "mokkapala"
+  },
+  {
+    "title": "Sämbyls",
+    "ingredients": [
+      "2,5 dl maitoa",
+      "1/2 palaa hiivaa",
+      "1 rkl hunajaa/sokerivettä",
+      "1 tl suolaa",
+      "5–6 dl sämpylä- tai vehnäjauhoja",
+      "25 g pehmeää voita"
+    ],
+    "guidelines": [
+      "Liota hiiva kädenlämpöiseen maitoon.",
+      "Lisää suola ja hunaja sekä puolet jauhoista.",
+      "Sekoita voimakkaasti ja lisää rasva ja loput jauhoista.",
+      "Alusta taikina kimmoisaksi.",
+      "Anna kohota liinalla peitettynä kaksinkertaiseksi.",
+      "Laita uuni päälle ja taputtele taikina sämpylöiksi.",
+      "Voitele vedellä ja paista 200 asteessa n. 15-20 min."
+    ],
+    "image": "sambyls"
   }
 ]
